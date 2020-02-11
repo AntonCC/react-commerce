@@ -1,6 +1,6 @@
 import { createSelector } from 'reselect'
 
-// Gets whole state and return slice, usually one layer deep
+// Gets whole state and returns slice, usually one layer deep
 const selectCart = state => state.cart;
 
 export const selectCartItems = createSelector(
