@@ -91,7 +91,7 @@ export function* onSignUpStart() {
 }
 
 export function* onSignUpSuccess() {
-    yield takeLatest(UserActionTypes.SIGN_IN_SUCCESS, signInAfterSignUp)
+    yield takeLatest(UserActionTypes.SIGN_UP_SUCCESS, signInAfterSignUp)
 }
 
 export function* userSagas() {
